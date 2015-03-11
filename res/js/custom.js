@@ -7,9 +7,7 @@ $(function () {
 
     $('.section').mouseenter(function() {
       var sectionName = $(this).attr('id');
-      console.log(sectionName)
       var navbarItem = $('.navbar-nav a[href="#' + sectionName + '"]').parent();
-      console.log(navbarItem)
       activate(navbarItem);
     }); 
 
@@ -35,6 +33,37 @@ $(function () {
     $('.countdown').downCount({
         date: '09/12/2015 12:00:00',
         offset: +10
+    });
+
+    $('#wishorderform').ajaxForm(function(returnVal) {
+      $('#wishorderform').html($(returnVal).html());
+      if ($('#wishorderform input[name="form_status"]').val() != '0') {
+        // Save wish id
+        var wishId = $('#wishorderform input[name="form_status"]').val();
+        $('article[data-wishid="'+wishId+'"]').remove();
+        // form was sent with success! => reset status and close all things!
+        $('#wishorderform input[name="form_status"]').val('0');
+        $('.overlay').remove();
+        $('#popup_content').css({'display':'none'});
+      }
+    });
+
+    $('p.didYouOrdered button').click(function() {
+        // only activate, when we don't have the overlay now.
+        if ($('.overlay').size() <= 0) {
+          var docHeight = $(document).height();
+          $('body').append("<div class='overlay'></div>");
+          $('.overlay').height(docHeight);
+          // Warning: in case, they click somewhere else, we cancel!
+          $('.overlay').click(function() {
+            $(this).remove();
+            $('#popup_content').css({'display':'none'});
+          });
+          // Now show the form!
+          $('#wishorderform input[name="wishid"]').val($(this).data('wishid'));
+          $('#wishorderform input[name="form_status"]').val('0');
+          $('#popup_content').css({'display':'block'});
+        }
     });
 });
 

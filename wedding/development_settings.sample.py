@@ -56,3 +56,4 @@ STATIC_ROOT = os.path.join(PROJECT_PATH, 'static')
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'GENERATED KEY HERE'
+WISH_ORDER_MAIL = None

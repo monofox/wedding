@@ -55,6 +55,9 @@
 		</div>
 	</div>
 </div>
+<div id="popup_content">
+{% include "wishes/order_form.html" %}
+</div>
 <div id="wishlist" class="section type-2">
 	<div class="container">
 		<div class="section-headlines">
@@ -64,7 +67,7 @@
 		</div>
 		
 		{% for wish in wishlist %}
-		<article>
+		<article data-wishid="{{ wish.id }}">
 			<div class="wish-img">
 				{% if wish.wishcover %}
 				<img alt="Wunsch" src="{%static wish.wishcover %}" width="90" />
@@ -79,6 +82,9 @@
 				<p class="isbn"><label>ISBN:</label> {{ wish.wishisbn }}</p>
 				{% endif %}
 				<p class="priority"><label>Priorit&auml;t:</label> {{ wish.priority }}</p>
+				<p class="didYouOrdered">
+					<button class="btn btn-block btn-info" data-wishid="{{ wish.id }}">Das schenke ich euch!</button>
+				</p>
 			</div>
 			<div style="clear: both;"></div>
 		</article>

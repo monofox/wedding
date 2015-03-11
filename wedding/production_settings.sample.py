@@ -153,3 +153,4 @@ MIDDLEWARE_CLASSES += ('django.middleware.common.BrokenLinkEmailsMiddleware',)
 # If None, no analytics code will be embedded
 PIWIK_URL = None
 PIWIK_SITE_ID = 1
+WISH_ORDER_MAIL = None

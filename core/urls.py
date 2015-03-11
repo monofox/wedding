@@ -10,5 +10,6 @@ urlpatterns = patterns('',
 	url(r'^impressum/$', views.static, {'site' : 'impressum.html'}, name='impressum'),
 
 	url(r'^send_contactmail/$', views.send_contactmail, name='send_contactmail'),
+	url(r'^set_wish_ordered/$', views.set_wish_ordered, name='set_wish_ordered'),
 
 )

@@ -15,7 +15,7 @@ from wishes.models import WishPriority, Wish
 from wishes.forms import WishForm
 
 class WishAdmin(admin.ModelAdmin):
-    list_display = ('priority', 'visible', 'wishtxt')
+    list_display = ('priority', 'visible', 'dttiord', 'wishtxt')
     #list_display_links = None
 
     def add_view(self, request, form_url='', extra_context=None):
