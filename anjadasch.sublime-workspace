@@ -1,0 +1,1794 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wish",
+				"wishList"
+			],
+			[
+				"socketE",
+				"socketError"
+			],
+			[
+				"DataLoad",
+				"DataLoaderObject"
+			],
+			[
+				"VPLAN",
+				"VPLAN_TYPE_DUTY"
+			],
+			[
+				"VPLAN_TYP",
+				"VPLAN_TYPE_DUTY"
+			],
+			[
+				"collect",
+				"collectedsec"
+			],
+			[
+				"refresh",
+				"refreshRate"
+			],
+			[
+				"refres",
+				"refreshRate"
+			],
+			[
+				"reloadD",
+				"reloadDnsData"
+			],
+			[
+				"QTable",
+				"QTableWidgetItem"
+			],
+			[
+				"QListWidget",
+				"QListWidgetItem"
+			],
+			[
+				"disab",
+				"disableProgressBar"
+			],
+			[
+				"proto",
+				"protocolError"
+			],
+			[
+				"Certific",
+				"CertificateError"
+			],
+			[
+				"Ty",
+				"TYPE_MX"
+			],
+			[
+				"dom",
+				"domainId"
+			],
+			[
+				"FlsSlave",
+				"FlsSlaveExecutor"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"SimpleXMLRP",
+				"SimpleXMLRPCRequestHandler"
+			],
+			[
+				"FLX",
+				"FLSXMLRPCServer"
+			],
+			[
+				"PyTool",
+				"PyToolsRight"
+			],
+			[
+				"client",
+				"client_address"
+			],
+			[
+				"CMD_ST",
+				"CMD_STOPP"
+			],
+			[
+				"CMD_GO",
+				"CMD_GO_ONLINE"
+			],
+			[
+				"fff",
+				"FFFFFF"
+			],
+			[
+				"set",
+				"setText"
+			],
+			[
+				"STATE_",
+				"STATE_DELETE"
+			],
+			[
+				"domain",
+				"domainTree"
+			],
+			[
+				"loadDomain",
+				"loadDomainData"
+			],
+			[
+				"loadMail",
+				"loadMailData"
+			],
+			[
+				"TYP",
+				"VPLAN_TYPE_CANCELLED"
+			],
+			[
+				"vSubj",
+				"vSubjeId"
+			],
+			[
+				"VPLAN_TY",
+				"VPLAN_TYPE_CANCELLED"
+			],
+			[
+				"Smarty",
+				"Smarty_FLS"
+			],
+			[
+				"FlsText",
+				"FlsTextReplacerFunc"
+			],
+			[
+				"cach",
+				"cacheTxt"
+			],
+			[
+				"region",
+				"regionA"
+			],
+			[
+				"cache",
+				"cacheEdit"
+			],
+			[
+				"get",
+				"getCursor"
+			],
+			[
+				"Bool",
+				"BoolEntry"
+			],
+			[
+				"after",
+				"afterWhere"
+			],
+			[
+				"Database",
+				"Database2"
+			],
+			[
+				"Data",
+				"Database2"
+			],
+			[
+				"STA",
+				"STATE_OK"
+			],
+			[
+				"MailAccoun",
+				"MailAccountList"
+			],
+			[
+				"salt",
+				"saltLng"
+			],
+			[
+				"Sasl",
+				"SaslDatabase"
+			],
+			[
+				"COMPILES",
+				"COMPILED_PYTHON_MODS"
+			],
+			[
+				"ignoreJS",
+				"ignoreJSLint"
+			],
+			[
+				"secure",
+				"secureRights"
+			],
+			[
+				"searchFun",
+				"searchFuncEndDecl"
+			],
+			[
+				"sear",
+				"searchFuncEndDecl"
+			],
+			[
+				"target",
+				"targetFolder"
+			],
+			[
+				"use",
+				"use_builtin_types"
+			],
+			[
+				"save",
+				"saveConfiguration"
+			],
+			[
+				"EbbContro",
+				"EbbControlAdminContent"
+			],
+			[
+				"ACTION_",
+				"CRON_ACTION_UPDATE"
+			],
+			[
+				"call_user",
+				"call_user_func_array"
+			],
+			[
+				"para",
+				"params"
+			],
+			[
+				"QNetwork",
+				"QNetworkReply"
+			],
+			[
+				"dsb",
+				"dsbMessage"
+			],
+			[
+				"sig",
+				"sigNewMsg"
+			],
+			[
+				"quit",
+				"quitEBB"
+			],
+			[
+				"ACTION",
+				"ACTION_CONFIG"
+			],
+			[
+				"EVENT_",
+				"EVENT_CHANGE"
+			],
+			[
+				"TARGET_",
+				"TARGET_DSB"
+			],
+			[
+				"possibl",
+				"POSSIBLE_TARGETS"
+			],
+			[
+				"COMPIL",
+				"COMPILED_PYTHONS"
+			],
+			[
+				"Obser",
+				"ObservableSubject"
+			],
+			[
+				"READ_",
+				"READ_WRITE"
+			],
+			[
+				"machin",
+				"machineID"
+			],
+			[
+				"TYPE_",
+				"TYPE_CMS"
+			],
+			[
+				"pid",
+				"pidFile"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "templates/wishes/wish_backend.html",
+			"settings":
+			{
+				"buffer_size": 3360,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wedding/settings.py",
+			"settings":
+			{
+				"buffer_size": 2072,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/core/index.html",
+			"settings":
+			{
+				"buffer_size": 4266,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/views.py",
+			"settings":
+			{
+				"buffer_size": 3220,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/urls.py",
+			"settings":
+			{
+				"buffer_size": 390,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/core/contact_form.html",
+			"settings":
+			{
+				"buffer_size": 1597,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/core/footer.html",
+			"settings":
+			{
+				"buffer_size": 485,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/forms.py",
+			"settings":
+			{
+				"buffer_size": 311,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/models.py",
+			"settings":
+			{
+				"buffer_size": 2979,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/core/base.html",
+			"settings":
+			{
+				"buffer_size": 2920,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/core/impressum.html",
+			"settings":
+			{
+				"buffer_size": 9170,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "res/js/custom.js",
+			"settings":
+			{
+				"buffer_size": 1371,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "res/css/style.css",
+			"settings":
+			{
+				"buffer_size": 19239,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wishes/urls.py",
+			"settings":
+			{
+				"buffer_size": 160,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wishes/models.py",
+			"settings":
+			{
+				"buffer_size": 933,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wishes/forms.py",
+			"settings":
+			{
+				"buffer_size": 587,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wishes/admin.py",
+			"settings":
+			{
+				"buffer_size": 2789,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Python3.sublime-build",
+	"command_palette":
+	{
+		"height": 132.0,
+		"selected_items":
+		[
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control In",
+				"Package Control: Install Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"Package contr",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"git status",
+				"Git: Quick Status"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git commit ",
+				"Git: Quick Commit"
+			],
+			[
+				"git quick com",
+				"Git: Quick Commit"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"commit",
+				"Git: Quick Commit"
+			],
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"Package con inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"todo",
+				"Set Syntax: Todo"
+			],
+			[
+				"install pka",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Contro REmove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Contro Instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Inst ",
+				"Package Control: Install Package"
+			],
+			[
+				"git add cu",
+				"Git: Add Current File"
+			],
+			[
+				"Git qui",
+				"Git: Quick Log"
+			],
+			[
+				"Package Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Sublime",
+				"SublimeGit: Install License"
+			],
+			[
+				"git log",
+				"Git: Log"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"Package Control: Remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Toggle ss",
+				"View: Toggle Status Bar"
+			],
+			[
+				"Package Contro",
+				"Package Control: Install Package"
+			],
+			[
+				"Tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"toggle",
+				"View: Toggle Minimap"
+			],
+			[
+				"view",
+				"View: Toggle Status Bar"
+			],
+			[
+				"Package ",
+				"Package Control: Install Package"
+			],
+			[
+				":ew",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				":open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				":open ",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				":tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				":tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"collabo",
+				"Collaboration: Remove Document"
+			],
+			[
+				"Collaboration",
+				"Collaboration: Remove Document"
+			],
+			[
+				"Collbar",
+				"Collaboration: Remove Document"
+			],
+			[
+				"Collabor",
+				"Collaboration: Add Current Document"
+			],
+			[
+				"Collab",
+				"Collaboration: Connect To Server"
+			],
+			[
+				"Collaborat",
+				"Collaboration: Open Document"
+			],
+			[
+				"Open ",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"Collabo",
+				"Collaboration: Open Document"
+			],
+			[
+				"Add Doc",
+				"Collaboration: Add Current Document"
+			],
+			[
+				"Package Control",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Con",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Control ",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 297.0,
+		"history":
+		[
+			"pwd",
+			"view.file_name().endswith('.php')",
+			"view.file_name().endswith('php')",
+			"view.file_name()",
+			"vars(view)",
+			"view",
+			"cx.close()",
+			"e, k in d.keys()",
+			"d, k in d.keys()",
+			"d",
+			"d = {'&auml;': 'ä'}",
+			"plugin.FlsTextSearcherCommand.UMLAUT_MAP",
+			"FlsTextSearcherCommand.UMLAUT_MAP",
+			"view.substr(view.word(view.selection[0]))",
+			"view.word(view.selection[0])",
+			"view.substr(view.word(r))",
+			"view.word(r)",
+			"view.word()",
+			"r",
+			"r = view.selection[0]",
+			"view.selection[0]",
+			"sel[0]",
+			"sel",
+			"f[0]",
+			"for f in sel:\\n print(f)",
+			"sel = view.selection",
+			"for f in view.selection:",
+			"for f in view.selection: print(f)",
+			"view.selection",
+			"view.selection()",
+			"view.selection",
+			"view",
+			"sublime.message_dialog('teset')",
+			"view.run_command('fls_text_searcher')",
+			"view.run_command('example')",
+			"view.run_command('fls_text_searcher')",
+			"view.run_command(\"flstextsearcher\")",
+			"view.run_command(\"FLSTextSearcher\")",
+			"import mysql",
+			"sys.path",
+			"sys.path.append('/usr/lib/python3.3/')",
+			"sys.path.append('/usr/lib/python3.3/",
+			"sys.path",
+			"import sys",
+			"import mysql",
+			"import mysql.connector",
+			"view.run_command(\"FLSTextSearcher\")",
+			"sublime_plugin.TextCommand.__init__()",
+			"sublime_plugin.TextCommand",
+			"help(sublime_plugin.TextCommand)",
+			"import sublime_plugin",
+			"sys.version",
+			"import sys",
+			"sys.version",
+			"version",
+			"from mysqlconnector import *"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"expanded_folders":
+	[
+		"/srv/www/htdocs/anjadasch",
+		"/srv/www/htdocs/anjadasch/core",
+		"/srv/www/htdocs/anjadasch/res",
+		"/srv/www/htdocs/anjadasch/res/css",
+		"/srv/www/htdocs/anjadasch/res/img",
+		"/srv/www/htdocs/anjadasch/res/js",
+		"/srv/www/htdocs/anjadasch/templates",
+		"/srv/www/htdocs/anjadasch/templates/core",
+		"/srv/www/htdocs/anjadasch/templates/wishes",
+		"/srv/www/htdocs/anjadasch/wedding",
+		"/srv/www/htdocs/anjadasch/wishes",
+		"/srv/www/htdocs/anjadasch/wishes/__pycache__"
+	],
+	"file_history":
+	[
+		"/srv/www/htdocs/anjadasch/wedding/local_settings.py",
+		"/srv/www/htdocs/anjadasch/core/views.py",
+		"/tmp/vclient.log",
+		"/srv/www/htdocs/anjadasch/templates/core/footer.html",
+		"/srv/www/htdocs/anjadasch/wishes/views.py",
+		"/srv/www/htdocs/anjadasch/wishes/forms.py",
+		"/srv/www/htdocs/anjadasch/wishes/admin.py",
+		"/srv/www/htdocs/anjadasch/res/css/bootstrap.css",
+		"/srv/www/htdocs/anjadasch/res/css/style.css",
+		"/usr/lib64/python3.4/site-packages/django/contrib/admin/options.py",
+		"/srv/www/htdocs/anjadasch/core/forms.py",
+		"/srv/www/htdocs/anjadasch/core/admin.py",
+		"/srv/www/htdocs/anjadasch/wedding/urls.py",
+		"/srv/www/htdocs/anjadasch/templates/core/impressum.html",
+		"/srv/www/htdocs/anjadasch/templates/core/index_backup.html",
+		"/srv/www/htdocs/anjadasch/core/models.py",
+		"/srv/www/htdocs/anjadasch/wedding/models/wishlist.py",
+		"/srv/www/htdocs/anjadasch/wedding/settings.py",
+		"/srv/www/htdocs/anjadasch/core/__init__.py",
+		"/srv/www/htdocs/anjadasch/res/js/custom.js",
+		"/srv/www/htdocs/anjadasch/templates/core/index.html",
+		"/srv/www/htdocs/anjadasch/res/js/jquery.downCount.js",
+		"/home/mono/.projects/preissuchmaschine/result.csv",
+		"/tmp/video.test",
+		"/tmp/video.q",
+		"/home/mono/https",
+		"/home/mono/.projects/fls/flscp/Makefile",
+		"/home/mono/.projects/fls/flscp/flscp/flscp.py",
+		"/home/mono/.projects/fls/flscp/flscp/flscpclient.py",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/server/BuchungsEngineImpl.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/gui/action/KostenstelleListe.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/gui/dialogs/KostenstelleAuswahlDialog.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/gui/part/KostenstelleList.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/rmi/Kostenstelle.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/server/KostenstelleImpl.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/rmi/Kontoart.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/rmi/Transfer.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/gui/views/BuchungListe.java",
+		"/home/mono/.projects/syntax/sql/create_mysql.sql",
+		"/srv/www/htdocs/hwplaner/res/class/Kalender.class.php",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/server/AbschreibungsBuchungImpl.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/server/HilfsBuchungImpl.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/server/AbstractBaseBuchungImpl.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/server/AbstractTransferImpl.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/server/KontoImpl.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/server/BuchungImpl.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/gui/views/BuchungstemplateListe.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/gui/action/BuchungListe.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/server/KontoartImpl.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/server/SaldenCache.java",
+		"/home/mono/.projects/syntax/src/de/willuhn/jameica/fibu/gui/action/BuchungNeu.java",
+		"/srv/www/htdocs/fls/src/controller/VPlanContent.php",
+		"/srv/www/htdocs/fls/src/res/js/vplan.js",
+		"/srv/www/htdocs/fls/src/view/mobile/vplaner.tpl",
+		"/srv/www/htdocs/fls/src/view/mobile/vplanerTeacher.tpl",
+		"/home/mono/.projects/fls/vplan/config.ini",
+		"/srv/www/htdocs/fls/src/model/User.class.php",
+		"/srv/www/htdocs/fls/src/model/Course/Teacher.class.php",
+		"/srv/www/htdocs/fls/src/model/Vertretungsplaner.class.php",
+		"/srv/www/htdocs/fls/src/view/content/vplanerTeacher.tpl",
+		"/srv/www/htdocs/fls/install/latest/sql/20140822_01_insert_texts.sql",
+		"/srv/www/htdocs/fls/src/res/styles/vplan/vplan.css",
+		"/home/mono/.projects/fls/vplan/flsvplan.py",
+		"/tmp/vertretungen.txt",
+		"/tmp/json.txt",
+		"/srv/www/htdocs/fls/src/geco.php",
+		"/srv/www/htdocs/fls/src/model/Lib/Configuration/Templates/FLSConfiguration.class.php",
+		"/srv/www/htdocs/fls/install/latest/sql/20140824_01_alter_vplan.sql",
+		"/srv/www/htdocs/fls/src/model/Log.class.php",
+		"/srv/www/htdocs/fls/src/model/PyTools.class.php",
+		"/srv/www/htdocs/fls/src/controller/admin/ContentDeclinedAdminContent.php",
+		"/tmp/vertretungen - Kopie.txt",
+		"/tmp/calendar",
+		"/home/mono/.projects/fls.sublime-project",
+		"/srv/www/htdocs/fls/src/model/NewsManager.class.php",
+		"/media/eup.de/v/pdf/xml/LGPRT794-LUSOUTQ-ID302209.xml",
+		"/home/mono/.projects/fls/monitServer/monitServer/view/api/host_list.tpl",
+		"/home/mono/.projects/fls/monitServer/monitServer/view/host/show.tpl",
+		"/home/mono/.projects/fls/monitServer/monitServer/__init__.py",
+		"/home/mono/.projects/fls/monitServer/monitServer/view/api/base.tpl",
+		"/home/mono/.projects/fls/monitServer/monitServer/view/layout.tpl",
+		"/home/mono/.projects/fls/monitServer/monitServer/Host.py",
+		"/home/mono/.projects/fls/monitServer/monitServer/Statistic.py",
+		"/home/mono/.projects/fls/monitServer/monitServer/view/host/list.tpl",
+		"/srv/www/htdocs/fls/src/model/Database2.class.php",
+		"/srv/www/htdocs/fls/src/view/raw/vplaner_4.tpl",
+		"/home/mono/.projects/fls/monitServer/monitServer/view/events.tpl",
+		"/home/mono/.projects/fls/monitServer/monitServer/view/dashboard.tpl",
+		"/home/mono/.projects/fls/monitServer/examples/monitStopped.xml",
+		"/home/mono/.projects/fls/monitServer/monitServer/Service.py",
+		"/home/mono/.projects/fls/monitServer/monitServer/Event.py",
+		"/home/mono/.projects/fls/monitServer/monitServer/MonitServer.py",
+		"/home/mono/.projects/fls/monitServer/monitServer/view/styles/style.scss",
+		"/home/mono/.projects/fls/monitServer/monitServer/TemplateFunctions.py",
+		"/home/mono/.projects/fls/monitServer/monitServer/view/hosts.tpl",
+		"/home/mono/.projects/fls/monitServer/monitServer/view/style.css",
+		"/home/mono/.projects/fls/monitServer/examples/monitRunningLocal.xml",
+		"/home/mono/.projects/fls/monitServer/examples/monitRunning.xml",
+		"/home/mono/.projects/fls/monitServer/examples/monit.xml",
+		"/home/mono/.projects/fls/flscp/flscp/flscpserver.py",
+		"/home/mono/.projects/fls/flscp/flscp/modules/dns.py",
+		"/home/mono/.projects/fls/flscp/build/flscp/ui/ui_cp.py",
+		"/home/mono/.projects/fls/flscp/flscp/modules/domain.py",
+		"/home/mono/.projects/fls/flscp/flscp/modules/mail.py",
+		"/home/mono/.projects/fls/flscp/flscp/modules/flscertification.py",
+		"/home/mono/.projects/fls/flscp/flscp/database.py",
+		"/home/mono/.projects/fls/flscp/flscp/observer.py",
+		"/home/mono/.projects/fls/vplanClient/VPlanClient/VPlanClient.py",
+		"/home/mono/.projects/fls/flscp/flscp/ui/about.ui",
+		"/home/mono/.projects/fls/flscp/build/flscp/ui/ui_about.py",
+		"/home/mono/.projects/fls/flscp/Makefile.in",
+		"/home/mono/.projects/fls/flscp/flscp/server.ini",
+		"/home/mono/.projects/fls/flscp/build/flscp/ui/__init__.py",
+		"/home/mono/.projects/fls/pyTools/pyTools/ipc/xml.py",
+		"/home/mono/.projects/fls/pyTools/pyTools/flsdaemon.py",
+		"/home/mono/.projects/fls/pyTools/pyToolsCmd.py",
+		"/home/mono/.projects/fls/pyTools/pyTools/ipc/client.py",
+		"/home/mono/.projects/fls/pyTools/pyTools/flshandler.py",
+		"/home/mono/.projects/fls/pyTools/pyTools/flsargparse.py",
+		"/usr/lib/python3.3/argparse.py",
+		"/usr/lib/python3.2/argparse.py",
+		"/home/mono/.projects/Sailfish/HelloWorld/Makefile",
+		"/home/mono/.projects/fls/pyTools/pyTools/daemon.py",
+		"/home/mono/.projects/fls/pyTools/pyTools/flsslave.py",
+		"/home/mono/.projects/fls/pyTools/pyTools/pyright.py",
+		"/home/mono/.projects/fls/pyTools/pyTools/flssocket.py",
+		"/usr/lib/python3.3/socketserver.py",
+		"/home/mono/.projects/fls/pyTools/pyTools/modules/slave.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/mono/.projects/fls/monitServer/monitServer",
+			"/home/mono/.projects/fls/pyTools/pyTools",
+			"/srv/www/htdocs/fls/src",
+			"/srv/www/htdocs/fls/src/view",
+			"/srv/www/htdocs/fls/src",
+			"/srv/www/htdocs/fls/src/view",
+			"/srv/www/htdocs/fls/src",
+			"/srv/www/htdocs/fls/src/view",
+			"/srv/www/htdocs/fls/src/model",
+			"/srv/www/htdocs/fls/src/controller",
+			"/srv/www/htdocs/fls/src/view",
+			"/srv/www/htdocs/fls/src",
+			"/srv/www/htdocs/fls",
+			"/srv/www/htdocs/fls/src",
+			"/srv/www/htdocs/fls/src/model",
+			"/srv/www/htdocs/fls/src",
+			"/srv/www/htdocs/fls/src/model",
+			"/srv/www/htdocs/fls/src/view",
+			"/srv/www/htdocs/fls/src/view/content",
+			"statushandler.py",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"port",
+			"strong",
+			"render_change_form",
+			"changeform_view",
+			"def changeform_view",
+			"url",
+			"formulr",
+			"Http404",
+			"get_form",
+			"helpers",
+			"unquote",
+			"def changeform_view",
+			"form-control",
+			"errorlist",
+			"vertMargin",
+			"btn-back",
+			".back",
+			"\\.back",
+			".back",
+			"back",
+			"jump0",
+			"jump1",
+			"wishlist",
+			"jump1",
+			"jump2",
+			"contact",
+			"favicon",
+			"WishesAdmin",
+			"article",
+			"section-headlines",
+			"img/portfolio/",
+			"http://www.egrappler.com/meilleur/",
+			"place",
+			".jpg",
+			"avatar-1.jpg",
+			"avatar",
+			"jpg",
+			"png",
+			"headerbg",
+			"70",
+			"header-menu-wrap",
+			"egrapp",
+			"debug",
+			"DEBUG",
+			"break",
+			"writeResult",
+			"shopId",
+			"PreisSuchResult",
+			"PreisSuch",
+			"getProvider",
+			"Result",
+			"writeResult",
+			"aTags[0].get('href')",
+			"ShopLoader",
+			"Shopper",
+			"searchparam",
+			"searchParam",
+			"baseUrl",
+			"sellerPath",
+			"PreisSuchResult",
+			"self.shops",
+			"shop",
+			"shopList",
+			"shoplist",
+			"parseTableList",
+			"parseTableProduct",
+			"article",
+			"EAN",
+			"ean",
+			"Searcher",
+			"searcher",
+			"tmpResult",
+			"randomUserAgent",
+			"filter",
+			"lookup",
+			"getByEM",
+			"authenticate",
+			"sparams",
+			"keepalive",
+			"googlevideo.com",
+			"flv",
+			"https://",
+			"https",
+			"%3D",
+			"googlevideo.com",
+			"passdb",
+			"authenticate",
+			"userdb_mail",
+			"Maildir",
+			"toggle",
+			"connectA",
+			"but.",
+			"loadMailData",
+			"loadMail",
+			"updateSenderAccess",
+			"getMails",
+			"self.app.processEvents\\(\\)\\(\\)\\(\\)",
+			"self.app.processEvents()()",
+			"app.processEvents()",
+			"app.processEvents",
+			"self.splash",
+			"self.splash ",
+			"self.splash.",
+			"def update(",
+			"def update",
+			"self.splash.",
+			"FLScpMainWindow",
+			"FlsCp",
+			"app",
+			"QSplash",
+			"LogFileLoader",
+			"sleep",
+			"wait",
+			"sleep",
+			"getLogFile",
+			"Found ",
+			"DnsListLoader",
+			"CertListLoader",
+			"debug",
+			"needed",
+			"logFileLoaded",
+			"LogFileLoader",
+			"QThread",
+			"LogFileListLoader",
+			"dataLoader.dataLoaded",
+			"->start",
+			"self.dataLoader",
+			"dataLoader"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"{% static \"img/portfolio/",
+			"",
+			"self.app.processEvents()",
+			",\\n\"",
+			"dnsTable",
+			"dataLoader",
+			"",
+			"'",
+			"",
+			"success",
+			"info",
+			"error",
+			"DomainList",
+			"tableDNS",
+			"Management",
+			"\\1);",
+			"(t",
+			"));",
+			"setHelp(\\1);",
+			"(t",
+			"));",
+			"setHelp(\\1);",
+			"",
+			"$fullAddr",
+			"ö",
+			"ü",
+			"ä",
+			"ö",
+			"ä",
+			"ü",
+			"ö",
+			"ä",
+			"ü",
+			"{$fullAddr}",
+			"",
+			"self.conf.",
+			"self.log.",
+			"[]",
+			"                    ",
+			"weekDay",
+			"WeekDay",
+			"month",
+			"Month",
+			"day",
+			"stop",
+			"",
+			"minute",
+			"hour",
+			"day",
+			"{'clientip': 'server'}",
+			"pyqtSlot",
+			"pyqtSignal",
+			"PyQt4",
+			"Slot",
+			"Signal",
+			"PySide",
+			"",
+			"join",
+			"log.info"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "templates/wishes/wish_backend.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1781,
+								1781
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 104.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wedding/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1868,
+								1868
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 687.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/core/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3429,
+								3429
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 507.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "core/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1091,
+								1091
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "core/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								309,
+								309
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "templates/core/contact_form.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1597,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								836,
+								836
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "templates/core/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								448,
+								448
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "core/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "core/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2979,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2095,
+								2095
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 273.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "templates/core/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2920,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2920,
+								2920
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 349.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "templates/core/impressum.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "res/js/custom.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								913,
+								913
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 156.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "res/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19093,
+								19093
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 11716.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "wishes/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "wishes/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								601,
+								601
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "wishes/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 587,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								283,
+								283
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "wishes/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1819,
+								1819
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 117.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 88.0
+	},
+	"output.git-push":
+	{
+		"height": 88.0
+	},
+	"project": "anjadasch.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/srv/www/htdocs/fls/FLS/fls.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,203 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{% block "metadata" %}
+	{% endblock "metadata" %}
+
+	<title>Anja-Dasch: Wir heiraten!</title>
+	<!-- Stylesheets -->
+	<link type="text/css" rel="stylesheet" href="{% static "css/bootstrap.css" %}" />
+	<link type="text/css" rel="stylesheet" href="{% static "css/font-awesome.css" %}" />
+	<link type="text/css" rel="stylesheet" href="{% static "css/rondo/style.css" %}" />
+	<link type="text/css" rel="stylesheet" href="{% static "css/jquery.fancybox.css" %}" />
+	<link type="text/css" rel="stylesheet" href="{% static "css/style.css" %}" />
+</head>
+<body>
+	<header class="header" id="jump">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+						<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span
+							class="icon-bar"></span><span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Anja & Dasch<!--<img src="{% static "img/logo.png" %}" alt="" />--></a>
+				</div>
+				<div class="collapse navbar-collapse hidden-xs">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#jump0">Home</a></li>
+						<li><a href="#jump1">Wunschliste</a></li>
+						<li><a href="#jump2">Schick uns was!</a></li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+				<div class="collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#jump0" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+							Home</a></li>
+						<li><a href="#jump1" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+							Wunschliste</a></li>
+						<li><a href="#jump2" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+							Schick uns was!</a></li>
+					</ul>
+				</div>
+				<!-- /.navbar-responsive-collapse -->
+			</div>
+		</nav>
+	</header>
+	<div class="jumper" id="jump0">
+	</div>
+	<div class="section type-1 big splash">
+		<div class="splash-cover">
+		</div>
+		<div class="container">
+			<div class="splash-block">
+				<div class="centered">
+					<div class="container">
+						<div class="section-headlines">
+							<h1>Unsere Hochzeit steht bevor!</h1>
+						</div>
+						<!-- Countdown Area Starts -->
+						<div id="countdown-area">
+							<!-- Count Down Timer Starts -->
+							<ul class="countdown">
+								<li><span data-scroll-reveal="enter bottom and move 20px over 1.2s" class="days">00</span>
+									<p data-scroll-reveal="enter top and move 20px over 1.4s" class="days_ref"> Tage</p>
+								</li>
+								<li><span data-scroll-reveal="enter bottom and move 20px over 1.6s" class="hours">00</span>
+									<p data-scroll-reveal="enter top and move 20px over 1.8s" class="hours_ref"> Stunden</p>
+								</li>
+								<li><span data-scroll-reveal="enter bottom and move 2px over 2.0s" class="minutes">00</span>
+									<p data-scroll-reveal="enter top and move 20px over 2.2s" class="minutes_ref"> Minuten</p>
+								</li>
+								<li><span data-scroll-reveal="enter bottom and move 20px over 2.4s" class="seconds">00</span>
+									<p data-scroll-reveal="enter top and move 20px over 2.6s" class="seconds_ref"> Sekunden</p>
+								</li>
+							</ul>
+							<!-- Count Down Timer Ends -->
+						</div>
+						<!-- Countdown Area Ends -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="jump1" class="jumper">
+	</div>
+	<div class="section type-2">
+		<div class="container">
+			<div class="section-headlines">
+				<h4>Unsere Wünsche...</h4>
+				<div>Was wäre nur eine Hochzeit ohne Feier und ohne Geschenke? 
+				Um dir die Entscheidung zu erleichtern, schau doch mal in unsere Liste:</div>
+			</div>
+			
+			<article>
+				<div class="wish-img">
+					<img alt="Nicht bestimmt" src="{%static "img/item-placeholder.jpg" %}" width="90" height="139" />
+				</div>
+				<div class="wish-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus odio, pharetra nec ultrices et, tincidunt in urna. Ut dignissim efficitur condimentum. Mauris ultrices nunc vitae mauris pulvinar, sed finibus elit convallis. Proin feugiat tempor tincidunt. Mauris ut augue libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas dictum vitae mi a egestas. Cras sodales justo aliquet fringilla blandit. Maecenas nibh lectus, egestas a fringilla a, sodales vitae erat. Phasellus varius metus nec urna euismod, id feugiat nibh fringilla. Suspendisse mi dui, ultrices nec porta ut, fermentum ac massa. Integer ac lorem tristique, euismod tellus non, semper sem. Duis at lobortis metus. 
+				</div>
+				<div style="clear: both;"></div>
+			</article>
+			<article>
+				<div class="wish-img">
+					<img alt="Nicht bestimmt" src="{%static "img/item-placeholder.jpg" %}" width="90" height="139" />
+				</div>
+				<div class="wish-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus odio, pharetra nec ultrices et, tincidunt in urna. Ut dignissim efficitur condimentum. Mauris ultrices nunc vitae mauris pulvinar, sed finibus elit convallis. Proin feugiat tempor tincidunt. Mauris ut augue libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas dictum vitae mi a egestas. Cras sodales justo aliquet fringilla blandit. Maecenas nibh lectus, egestas a fringilla a, sodales vitae erat. Phasellus varius metus nec urna euismod, id feugiat nibh fringilla. Suspendisse mi dui, ultrices nec porta ut, fermentum ac massa. Integer ac lorem tristique, euismod tellus non, semper sem. Duis at lobortis metus. 
+				</div>
+				<div style="clear: both;"></div>
+			</article>
+		</div>
+	</div>
+	<div id="jump2" class="jumper">
+	</div>
+	<div class="section type-1 section-contact">
+		<div class="container">
+			<div class="section-headlines">
+				<h4>Fragen?</h4>
+				<h2>Lass sie uns zukommen!</h2>
+			</div>
+			<form>
+			<div class="row">
+				<div class="col-lg-4">
+					<address>
+						<div class="address-row">
+							<div class="address-sign">
+								<i class="icon-map-marker"></i>
+							</div>
+							<div style="address-info">
+								<b>Anja & Dasch</b>,<br>
+								Birkenweg 7,<br>
+								Mariental
+							</div>
+						</div>
+					</address>
+					<div class="visible-xs visible-sm">
+						<br class="gap-30" />
+						<hr class="gap-divider" />
+						<br class="gap-30" />
+					</div>
+				</div>
+				<div class="col-lg-7 col-lg-offset-1">
+					<form role="form" method="post" action="#" id="contactform">
+					<div class="form-group">
+						<div class="row">
+							<div class="col-lg-6">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Dein Name *"><br
+									class="gap-15" />
+							</div>
+							<div class="col-lg-6">
+								<input type="text" class="form-control" id="email" name="email" placeholder="Deine E-Mail *"></div>
+						</div>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="subject" name="subject" placeholder="Betreff">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" id="message" name="message" rows="8"></textarea>
+					</div>
+					<button id="button-send" class="btn btn-block btn-success">
+						Und los gehts!
+					</button>
+					<div id="success">Deine Nachricht ist jetzt auf dem Weg.</div>
+					<div id="error">Deine Nachricht passt nicht in die Flasche zum Versenden!</div>
+					</form>
+				</div>
+			</div>
+			</form>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					Meilleur - A Free Responsive Bootstrap 3 Template &copy; 2014 - <a href="http://www.egrappler.com">EGrappler.com</a> //
+					Cover-Bild: Copyright by <a href="http://pixabay.com/en/bible-wedding-altar-bouquet-wedding-505633/">Hans Braxmeier</a>, 2014, Lizenz: CC0 Public Domain
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--Scripts-->
+	<script type="text/javascript" src="{% static "js/jquery-1.10.2.min.js" %}"></script>
+	<script type="text/javascript" src="{% static "js/bootstrap.min.js" %}"></script>
+	<script type="text/javascript" src="{% static "js/jquery.smooth-scroll.min.js" %}"></script>
+	<script type="text/javascript" src="{% static "js/jquery.mixitup.min.js" %}"></script>
+	<script type="text/javascript" src="{% static "js/jquery.easing.1.3.js" %}"></script>
+	<script type="text/javascript" src="{% static "js/jquery.downCount.js" %}"></script>
+	<script type="text/javascript" src="{% static "js/modernizr.js" %}"></script>
+	<script type="text/javascript" src="{% static "js/jquery.fancybox.pack.js" %}"></script>
+	<script type="text/javascript" src="{% static "js/custom.js" %}"></script>
+
+	{% block "scripts" %}
+	{% endblock "scripts" %}
+
+  </body>
+</html>

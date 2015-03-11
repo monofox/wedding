@@ -1,0 +1,72 @@
+{% extends "core/base.html" %}
+{% load staticfiles %}
+{% load widget_tweaks %}
+{% load i18n %}
+
+{% block "metadata" %}
+    <meta name="description" content="Admin Interface to add wishes">
+{% endblock "metadata" %}
+
+{% block "menu" %}
+  <li><a href="{% url "admin:index" %}" class="back">Administration</a></li>
+  <li class="active"><a href="#wish">Wunsch</a></li>
+{% endblock "menu" %}
+
+{% block "mobile_menu" %}
+  <li>
+      <a href="{% url "admin:index" %}" class="back" data-toggle="collapse" data-target=".navbar-responsive-collapse">Administration</a>
+  </li>
+  <li class="active">
+      <a href="#wish" data-toggle="collapse" data-target=".navbar-responsive-collapse">Wunsch</a>
+  </li>
+{% endblock "mobile_menu" %}
+
+{% block "content" %}
+    <div class="section type-2" style="padding-top: 100px">
+        <div class="container">
+            <div>
+                <div class="row">
+                    <div class="col-lg-5" class="vertMargin">
+                        <h2>
+                            {% trans "Editor" %}
+                        </h2>
+                        <form action="{{ form_url }}" id="wish_form" method="POST" accept-charset="utf-8" class="vertMargin" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            {% for hidden in form.hidden_fields %}
+                                {{ hidden }}
+                            {% endfor %}
+                            <div class="form-group">
+                                {{ form.wishtxt.errors }}
+                                {% with "placeholder:"|add:"Der Wunsch"|add:" *" as wishtxt_content %}
+                                    {{ form.wishtxt | add_class:"form-control" | attr:wishtxt_content | attr:"rows:20" | attr:"cols:50" | attr:"required" }}
+                                {% endwith %}
+                            </div>
+                            <div class="form-group">
+                                {{ form.wishisbn.errors }}
+                                {% with "placeholder:"|add:"ISBN" as isbn_placeholder %}
+                                    {{ form.wishisbn | add_class:"form-control" | attr:isbn_placeholder }}
+                                {% endwith %}
+                            </div>
+                            <div class="form-group">
+                                {{ form.priority.errors }}
+                                {{ form.priority | add_class:"form-control" | attr:"required"}}
+                            </div>
+                            <div class="form-group">
+                                {{ form.wishcover.errors }}
+                                {{ form.wishcover | add_class:"form-control"}}
+                            </div>
+                            <div class="form-group">
+                                <label for="{{ form.visible.auto_id }}" class="form-control"> 
+                                {{ form.visible.errors }}
+                                {{ form.visible }}
+                                {{ form.visible.label }}</label>
+                            </div>
+                            <div><input type="submit" id="send" class="btn btn-primary btn-block" value="Speichern" /></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock "content" %}
+

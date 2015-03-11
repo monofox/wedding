@@ -1,0 +1,126 @@
+{% extends "core/base.html" %}
+{% load staticfiles %}
+
+{% block "metadata" %}
+<meta name="description" content="Anja und David haben Wünsche zu ihrer Hochzeit!" />
+{% endblock "metadata" %}
+
+{% block "menu" %}
+<li class="active"><a href="#home">Home</a></li>
+<li><a href="#wishlist">Wunschliste</a></li>
+<li><a href="#contact">Schick uns was!</a></li>
+<li class="new-page"><a href="{% url "impressum" %}">Impressum</a></li>
+{% endblock "menu" %}
+
+{% block "mobile_menu" %}
+<li class="active"><a href="#home" data-toggle="collapse" data-target=".navbar-responsive-collapse">Home</a></li>
+<li><a href="#wishlist" data-toggle="collapse" data-target=".navbar-responsive-collapse">Wunschliste</a></li>
+<li><a href="#contact" data-toggle="collapse" data-target=".navbar-responsive-collapse">Schick uns was!</a></li>
+<li class="new-page"><a href="{% url "impressum" %}">Impressum</a></li>
+{% endblock "mobile_menu" %}
+
+{% block "content" %}
+<div id="home" class="section type-1 big splash">
+	<div class="splash-cover">
+	</div>
+	<div class="container">
+		<div class="splash-block">
+			<div class="centered">
+				<div class="container">
+					<div class="section-headlines">
+						<h1>Unsere Hochzeit steht bevor!</h1>
+					</div>
+					<!-- Countdown Area Starts -->
+					<div id="countdown-area">
+						<!-- Count Down Timer Starts -->
+						<ul class="countdown">
+							<li><span data-scroll-reveal="enter bottom and move 20px over 1.2s" class="days">00</span>
+								<p data-scroll-reveal="enter top and move 20px over 1.4s" class="days_ref"> Tage</p>
+							</li>
+							<li><span data-scroll-reveal="enter bottom and move 20px over 1.6s" class="hours">00</span>
+								<p data-scroll-reveal="enter top and move 20px over 1.8s" class="hours_ref"> Stunden</p>
+							</li>
+							<li><span data-scroll-reveal="enter bottom and move 2px over 2.0s" class="minutes">00</span>
+								<p data-scroll-reveal="enter top and move 20px over 2.2s" class="minutes_ref"> Minuten</p>
+							</li>
+							<li><span data-scroll-reveal="enter bottom and move 20px over 2.4s" class="seconds">00</span>
+								<p data-scroll-reveal="enter top and move 20px over 2.6s" class="seconds_ref"> Sekunden</p>
+							</li>
+						</ul>
+						<!-- Count Down Timer Ends -->
+					</div>
+					<!-- Countdown Area Ends -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="wishlist" class="section type-2">
+	<div class="container">
+		<div class="section-headlines">
+			<h4>Unsere Wünsche...</h4>
+			<div>Was wäre nur eine Hochzeit ohne Feier und ohne Geschenke? 
+			Um dir die Entscheidung zu erleichtern, schau doch mal in unsere Liste:</div>
+		</div>
+		
+		{% for wish in wishlist %}
+		<article>
+			<div class="wish-img">
+				{% if wish.wishcover %}
+				<img alt="Wunsch" src="{%static wish.wishcover %}" width="90" />
+				{% else %}
+				<img alt="Nicht bestimmt" src="{%static "img/item-placeholder.jpg" %}" width="90" />
+				{% endif %}
+			</div>
+			<div class="wish-text">
+				{{ wish.wishtxt }}
+				<p class="splitter"></p>
+				{% if wish.wishisbn %}
+				<p class="isbn"><label>ISBN:</label> {{ wish.wishisbn }}</p>
+				{% endif %}
+				<p class="priority"><label>Priorit&auml;t:</label> {{ wish.priority }}</p>
+			</div>
+			<div style="clear: both;"></div>
+		</article>
+		{% empty %}
+		<p>&nbsp;</p>
+		<p class="nowishes">Die Zwei sind wunschlos gl&uuml;cklich!</p>
+		{% endfor %}
+	</div>
+</div>
+<div id="contact" class="section type-1 section-contact">
+	<div class="container">
+		<div class="section-headlines">
+			<h4>Fragen?</h4>
+			<h2>Lass sie uns zukommen!</h2>
+		</div>
+		<div class="row">
+			<div class="col-lg-4">
+				<address>
+					<div class="address-row">
+						<div class="address-sign">
+							<i class="icon-map-marker"></i>
+						</div>
+						<div style="address-info">
+							<b>Anja Talg & David Schreiner</b>,<br>
+							Birkenweg 7,<br>
+							65366 Marienthal
+						</div>
+					</div>
+				</address>
+				<div class="visible-xs visible-sm">
+					<br class="gap-30" />
+					<hr class="gap-divider" />
+					<br class="gap-30" />
+				</div>
+			</div>
+			<div class="col-lg-7 col-lg-offset-1">
+				{% include "core/contact_form.html" %}
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock "content" %}
+{% block "footer" %}
+{% include "core/footer.html" %}
+{% endblock "footer" %}

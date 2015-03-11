@@ -1,0 +1,44 @@
+{% load widget_tweaks %}
+{% load i18n %}
+
+<form role="form" method="post" action="{% url "send_contactmail" %}" id="contactform">
+{% csrf_token %}
+{% for hidden in cform.hidden_fields %}
+    {{ hidden }}
+{% endfor %}
+<div class="form-group">
+	<div class="row form-group">
+		<div class="col-lg-6">
+			{{ cform.name.errors }}
+            {% with "placeholder:"|add:"Dein Name"|add:" *" as cname_placeholder %}
+                {{ cform.name | add_class:"form-control" | attr:cname_placeholder | attr:"required" }}
+            {% endwith %}
+		</div>
+		<div class="col-lg-6">
+			{{ cform.sender.errors }}
+            {% with "placeholder:"|add:"Deine E-Mail"|add:" *" as csender_placeholder %}
+                {{ cform.sender | add_class:"form-control" | attr:csender_placeholder | attr:"required" }}
+            {% endwith %}
+        </div>
+	</div>
+</div>
+<div class="form-group">
+	{{ cform.sendersubject.errors }}
+    {% with "placeholder:"|add:"Betreff"|add:" *" as csendersubject_placeholder %}
+        {{ cform.sendersubject | add_class:"form-control" | attr:csendersubject_placeholder | attr:"required" }}
+    {% endwith %}
+</div>
+<div class="form-group">
+	{% with "placeholder:"|add:"Nachricht"|add:" *" as ccontent_placeholder %}
+        {{ cform.content | add_class:"form-control" | attr:ccontent_placeholder | attr:"rows:8" | attr:"required" }}
+    {% endwith %}
+</div>
+<button id="button-send" class="btn btn-block btn-success">
+	Und los gehts!
+</button>
+{% if success %}
+  <div class="success">
+      {% trans "Thank you! Your message was successfully sent." %}
+  </div>
+{% endif %}
+</form>

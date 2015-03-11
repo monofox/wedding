@@ -1,0 +1,129 @@
+{% extends "core/base.html" %}
+{% load staticfiles %}
+
+{% block "metadata" %}
+    <meta name="description" content="Anja u. David Impressum">
+    <meta name="keywords" content="Impressum Haftungsausschluss Datenschutz Datenschutzerkl&auml;rung">
+{% endblock "metadata" %}
+
+{% block "menu" %}
+  <li><a href="{% url "index" %}" class="back">Zur&uuml;ck zur Hauptseite</a></li>
+  <li class="active"><a href="#impressum">Impressum</a></li>
+  <li><a href="#haftungsausschluss">Haftungsausschluss</a></li>
+  <li><a href="#datenschutz">Datenschutzerkl&auml;rung</a></li>
+{% endblock "menu" %}
+
+{% block "mobile_menu" %}
+  <li>
+      <a href="{% url "index" %}" class="back" data-toggle="collapse" data-target=".navbar-responsive-collapse">Zur&uuml;ck zur Hauptseite</a>
+  </li>
+  <li class="active">
+      <a href="#impressum" data-toggle="collapse" data-target=".navbar-responsive-collapse">Impressum</a>
+  </li>
+  <li>
+      <a href="#haftungsausschluss" data-toggle="collapse" data-target=".navbar-responsive-collapse">Haftungsausschluss</a>
+  </li>
+  <li>
+      <a href="#datenschutz" data-toggle="collapse" data-target=".navbar-responsive-collapse">Datenschutzerkl&auml;rung</a>
+  </li>
+{% endblock "mobile_menu" %}
+
+{% block "content" %}
+    <div class="section type-2 impressum" id="impressum">
+        <div class="container">
+            <h1>Impressum</h1>
+
+            <h3>Angaben gem&auml;&szlig; § 5 TMG:</h3>
+            <p>
+                Lukas Schreiner<br />
+                Heubachm&uuml;hle 1a<br />
+                56355 Nast&auml;tten
+            </p>
+
+            <h3>Kontakt:</h3>
+            <table>
+                <tr>
+                    <td>Telefon:</td>
+                    <td>+49 151 18120432</td>
+                </tr>
+                <tr>
+                    <td>E-Mail:</td>
+                    <td>hostmaster@lschreiner.de</td>
+                </tr>
+            </table>
+
+            <p> </p>
+            <h3>Quellenangaben f&uuml;r die verwendeten Bilder und Grafiken:</h3>
+            <p>
+                <a href="http://pixabay.com/en/bible-wedding-altar-bouquet-wedding-505633/" target="_blank">
+                    http://pixabay.com/en/bible-wedding-altar-bouquet-wedding-505633/
+                </a>
+                <br />
+                06.07.2014 &copy; Hans Braxmeier
+            </p>
+            <p> </p>
+            <p>Quelle: <em><a rel="nofollow" href="http://www.e-recht24.de">Impressum-Generator</a> von e-recht24.de f&uuml;r Privatpersonen.</em></p>
+        </div>
+    </div>
+
+    <div class="section type-3" id="haftungsausschluss">
+        <div class="container">
+            <h1>Haftungsausschluss (Disclaimer)</h1>
+            <h3>Haftung f&uuml;r Inhalte</h3>
+            <p>
+                Als Diensteanbieter sind wir gem&auml;&szlig; § 7 Abs.1 TMG f&uuml;r eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, &uuml;bermittelte oder gespeicherte fremde Informationen zu &uuml;berwachen oder nach Umst&auml;nden zu forschen, die auf eine rechtswidrige T&auml;tigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unber&uuml;hrt. Eine diesbez&uuml;gliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung m&ouml;glich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+            </p>
+            <h3>Haftung f&uuml;r Links</h3>
+            <p>
+                Unser Angebot enth&auml;lt Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb k&ouml;nnen wir f&uuml;r diese fremden Inhalte auch keine Gew&auml;hr &uuml;bernehmen. F&uuml;r die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf m&ouml;gliche Rechtsverst&ouml;&szlig;e &uuml;berpr&uuml;ft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
+            </p>
+            <h3>Urheberrecht</h3>
+            <p>
+                Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielf&auml;ltigung, Bearbeitung, Verbreitung und jede Art der Verwertung au&szlig;erhalb der Grenzen des Urheberrechtes bed&uuml;rfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur f&uuml;r den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+            </p>
+            <p></p>
+            <p>
+                <em>Quellen: <a rel="nofollow" href="http://www.e-recht24.de/muster-disclaimer.html" target="_blank">eRecht24</a></em>
+            </p>
+        </div>
+    </div>
+
+    <div class="section type-2" id="datenschutz">
+        <div class="container"><br /><h1>Datenschutzerkl&auml;rung:</h1>
+            <h3>Datenschutz</h3>
+            <p>
+                Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten m&ouml;glich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit m&ouml;glich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdr&uuml;ckliche Zustimmung nicht an Dritte weitergegeben.
+            </p>
+            <p>
+                Wir weisen darauf hin, dass die Daten&uuml;bertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitsl&uuml;cken aufweisen kann. Ein l&uuml;ckenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht m&ouml;glich.
+            </p>
+            <p>
+                Der Nutzung von im Rahmen der Impressumspflicht ver&ouml;ffentlichten Kontaktdaten durch Dritte zur &Uuml;bersendung von nicht ausdr&uuml;cklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdr&uuml;cklich widersprochen. Die Betreiber der Seiten behalten sich ausdr&uuml;cklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
+            </p>
+            <p></p>
+
+            <p></p>
+            <p>
+                <em>Quellen:
+                    <a rel="nofollow" href="http://www.e-recht24.de/muster-datenschutzerklaerung.html" target="_blank">eRecht24</a>,
+                </em>
+            </p>
+
+            {% if settings.PIWIK_URL %}
+                <h3>Datenschutzerkl&auml;rung f&uuml;r die Nutzung von Piwik</h3>
+                <p>
+                    Unsere Website verwendet Piwik, dabei handelt es sich um einen sogenannten Webanalysedienst. Piwik verwendet sog. “Cookies”, das sind Textdateien, die auf Ihrem Computer gespeichert werden und die unsererseits eine Analyse der Benutzung der Webseite erm&ouml;glichen. Zu diesem Zweck werden die durch den Cookie erzeugten Nutzungsinformationen (einschlie&szlig;lich Ihrer gek&uuml;rzten IP-Adresse) an unseren Server &uuml;bertragen und zu Nutzungsanalysezwecken gespeichert, was der Webseitenoptimierung unsererseits dient. Ihre IP-Adresse wird bei diesem Vorgang umge­hend anony­mi­siert, so dass Sie als Nutzer f&uuml;r uns anonym bleiben. Die durch den Cookie erzeugten Informationen &uuml;ber Ihre Benutzung dieser Webseite werden nicht an Dritte weitergegeben. Sie k&ouml;nnen die Verwendung der Cookies durch eine entsprechende Einstellung Ihrer Browser Software verhindern, es kann jedoch sein, dass Sie in diesem Fall gegebenenfalls nicht s&auml;mtliche Funktionen dieser Website voll umf&auml;nglich nutzen k&ouml;nnen.
+                </p>
+                <p>
+                    Wenn Sie mit der Spei­che­rung und Aus­wer­tung die­ser Daten aus Ihrem Besuch nicht ein­ver­stan­den sind, dann k&ouml;n­nen Sie der Spei­che­rung und Nut­zung nachfolgend per Maus­klick jederzeit wider­spre­chen. In diesem Fall wird in Ihrem Browser ein sog. Opt-Out-Cookie abgelegt, was zur Folge hat, dass Piwik kei­ner­lei Sit­zungs­da­ten erhebt. Achtung: Wenn Sie Ihre Cookies l&ouml;schen, so hat dies zur Folge, dass auch das Opt-Out-Cookie gel&ouml;scht wird und ggf. von Ihnen erneut aktiviert werden muss.
+                </p>
+                <p>
+                    <b>Widerspruch:
+                </b>
+                <p>
+                    <iframe frameborder="no" height="400" src="{{ settings.PIWIK_URL }}index.php?module=CoreAdminHome&action=optOut"></iframe>
+                </p>
+            {% endif %}
+        </div>
+    </div>
+{% endblock "content" %}
