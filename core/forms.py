@@ -2,14 +2,9 @@
 # -*- coding: utf-8 -*-
 
 from django import forms
-from core.models import ContactMail, Newsletter
+from core.models import ContactMail
 
 class ContactForm(forms.ModelForm):
 	class Meta:
 		model = ContactMail
 		fields = ['name', 'sender', 'sendersubject', 'content']
-
-class NewsletterForm(forms.ModelForm):
-	class Meta:
-		model = Newsletter
-		fields = ['subject', 'content']
