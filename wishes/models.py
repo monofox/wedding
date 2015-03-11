@@ -26,6 +26,8 @@ class Wish(models.Model):
 	visible = models.BooleanField(default=False)
 	dtticrt = models.DateTimeField(auto_now_add=True)
 	dttichg = models.DateTimeField(auto_now=True)
+	# save the timestamp when somebody says: i ordered it!
+	dttiord = models.DateTimeField(default=None, null=True)
 
 	class Meta:
 		verbose_name = 'Wish'

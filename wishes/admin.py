@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 from django.contrib import admin
 from django.template import RequestContext
 from django.http import HttpResponse, Http404

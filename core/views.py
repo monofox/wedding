@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 from django.shortcuts import render
@@ -18,7 +19,7 @@ import logging
 
 def index(request):
 	contactForm = ContactForm()
-	wishList = WishList().get_queryset().filter(visible=1)
+	wishList = WishList().get_queryset().filter(visible=1, dttiord=None)
 	context = RequestContext(request)
 	context_dic = {"cform": contactForm, 'wishlist': wishList}
 
