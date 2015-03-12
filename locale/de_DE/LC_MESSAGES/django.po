@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-11 22:52+0000\n"
+"PO-Revision-Date: 2015-03-12 01:02+0100\n"
+"Last-Translator: Lukas Schreiner <lukas.schreiner@fls-wiesbaden.de>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: de_DE\n"
+"X-Source-Language: en_US\n"
+"X-Generator: Poedit 1.5.5\n"
+"Language: de_DE\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: core/models.py:14
+msgid "Contact Mail"
+msgstr "Kontakt E-Mail"
+
+#: core/models.py:15
+msgid "Contact Mails"
+msgstr "Kontakt E-Mails"
+
+#: core/models.py:18
+#, python-format
+msgid "%(couple)s request: %(subject)s"
+msgstr "%(couple)s Anfrage: %(subject)s"
+
+#: core/models.py:19
+#, python-format
+msgid ""
+"Sender: %(sender)s\n"
+"Date: %(date)s\n"
+"Subject: %(subject)s\n"
+"\n"
+"%(content)s"
+msgstr ""
+"Absender: %(sender)s\n"
+"Datum: %(date)s\n"
+"Betreff: %(subject)s\n"
+"\n"
+"%(content)s"
+
+#: core/models.py:21
+msgid "Name"
+msgstr "Name"
+
+#: core/models.py:22
+msgid "Email address"
+msgstr "E-Mail Adresse"
+
+#: core/models.py:23
+msgid "Date"
+msgstr "Datum"
+
+#: core/models.py:24 templates/core/contact_form.html:29
+msgid "Subject"
+msgstr "Betreff"
+
+#: core/models.py:25 templates/core/contact_form.html:36
+msgid "Message"
+msgstr "Nachricht"
+
+#: core/models.py:25
+msgid "What do you want to tell them?"
+msgstr "Was möchten Sie den beiden mitteilen?"
+
+#: templates/core/contact_form.html:13
+msgid "Your name"
+msgstr "Dein Name"
+
+#: templates/core/contact_form.html:20
+msgid "Your email"
+msgstr "Deine E-Mail"
+
+#: templates/core/contact_form.html:42
+msgid "And let's go!"
+msgstr "Und los gehts!"
+
+#: templates/core/contact_form.html:46
+msgid "Thank you! Your message was successfully sent."
+msgstr "Vielen Dank! Deine Nachricht wurde erfolgreich gesendet."
+
+#: templates/wishes/wish_backend.html:7
+msgid "Admin Interface to add wishes"
+msgstr "Admin Oberfläche zum Hinzufügen von Wünschen"
+
+#: templates/wishes/wish_backend.html:11 templates/wishes/wish_backend.html:17
+msgid "Administration"
+msgstr "Administration"
+
+#: templates/wishes/wish_backend.html:12 templates/wishes/wish_backend.html:20
+#: wishes/admin.py:48 wishes/models.py:24
+msgid "Wish"
+msgstr "Wunsch"
+
+#: templates/wishes/wish_backend.html:31
+msgid "Editor"
+msgstr "Editor"
+
+#: templates/wishes/wish_backend.html:40 wishes/models.py:33
+msgid "The wish"
+msgstr "Der Wunsch"
+
+# internationale Standardbuchnummer
+#: templates/wishes/wish_backend.html:47
+msgid "ISBN"
+msgstr "ISBN"
+
+#: templates/wishes/wish_backend.html:66
+msgid "Save"
+msgstr "Speichern"
+
+#: wishes/admin.py:33
+msgid "Wish added."
+msgstr "Wunsch hinzufügt."
+
+#: wishes/admin.py:47
+#, python-format
+msgid "%(name)s object with primary key %(key)r does not exist."
+msgstr "%(name)s Objekt mit dem Primärschlüssel %(key)r existiert nicht."
+
+#: wishes/admin.py:59
+msgid "Wish saved."
+msgstr "Wunsch gespeichert."
+
+#: wishes/apps.py:9
+msgid "Wishlist"
+msgstr "Wunschliste"
+
+#: wishes/forms.py:16 wishes/models.py:17 wishes/models.py:31
+msgid "Priority"
+msgstr "Priorität"
+
+#: wishes/forms.py:17 wishes/models.py:35
+msgid "Visible"
+msgstr "Sichtbar"
+
+#: wishes/models.py:12
+msgid "Wish Priority"
+msgstr "Wunschpriorität"
+
+#: wishes/models.py:13
+msgid "Wish Priorities"
+msgstr "Wunschprioritäten"
+
+#: wishes/models.py:16
+msgid "Weight"
+msgstr "Gewichtung"
+
+#: wishes/models.py:25
+msgid "Wishes"
+msgstr "Wünsche"
+
+#: wishes/models.py:28
+#, python-format
+msgid "%(couple)s wish will be fullfilled: %(wish)s"
+msgstr "%(couple)s Wunsch wird erfüllt: %(wish)s"
+
+#: wishes/models.py:29
+#, python-format
+msgid ""
+"Sender: %(sender)s\n"
+"Date: %(date)s\n"
+"\n"
+"Wish: \n"
+"%(wish)s"
+msgstr ""
+"Absender: %(sender)s\n"
+"Datum: %(date)s\n"
+"\n"
+"Wunsch: \n"
+"%(wish)s"
+
+#: wishes/models.py:39
+msgid "Date of order"
+msgstr "Bestelldatum"
+

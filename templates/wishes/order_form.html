@@ -1,6 +1,6 @@
 {% load widget_tweaks %}
 {% load i18n %}
-<form role="form" method="post" action="{% url "set_wish_ordered" %}" id="wishorderform">
+<form role="form" method="post" action="{% url "set_wish_ordered" %}" id="wishorderform" data-reset="{% url "reset_ordered_form" %}">
 {% csrf_token %}
 {% for hidden in wishOrderForm.hidden_fields %}
     {{ hidden }}

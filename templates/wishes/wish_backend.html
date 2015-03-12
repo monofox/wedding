@@ -4,20 +4,20 @@
 {% load i18n %}
 
 {% block "metadata" %}
-    <meta name="description" content="Admin Interface to add wishes">
+    <meta name="description" content="{% trans "Admin Interface to add wishes" %}">
 {% endblock "metadata" %}
 
 {% block "menu" %}
-  <li><a href="{% url "admin:index" %}" class="back">Administration</a></li>
-  <li class="active"><a href="#wish">Wunsch</a></li>
+  <li><a href="{% url "admin:index" %}" class="back">{% trans "Administration" %}</a></li>
+  <li class="active"><a href="#wish">{% trans "Wish" %}</a></li>
 {% endblock "menu" %}
 
 {% block "mobile_menu" %}
   <li>
-      <a href="{% url "admin:index" %}" class="back" data-toggle="collapse" data-target=".navbar-responsive-collapse">Administration</a>
+      <a href="{% url "admin:index" %}" class="back" data-toggle="collapse" data-target=".navbar-responsive-collapse">{% trans "Administration" %}</a>
   </li>
   <li class="active">
-      <a href="#wish" data-toggle="collapse" data-target=".navbar-responsive-collapse">Wunsch</a>
+      <a href="#wish" data-toggle="collapse" data-target=".navbar-responsive-collapse">{% trans "Wish" %}</a>
   </li>
 {% endblock "mobile_menu" %}
 
@@ -37,13 +37,15 @@
                             {% endfor %}
                             <div class="form-group">
                                 {{ form.wishtxt.errors }}
-                                {% with "placeholder:"|add:"Der Wunsch"|add:" *" as wishtxt_content %}
+                                {% trans "The wish" as wishtxt_content %}
+                                {% with "placeholder:"|add:wishtxt_content|add:" *" as wishtxt_content %}
                                     {{ form.wishtxt | add_class:"form-control" | attr:wishtxt_content | attr:"rows:20" | attr:"cols:50" | attr:"required" }}
                                 {% endwith %}
                             </div>
                             <div class="form-group">
                                 {{ form.wishisbn.errors }}
-                                {% with "placeholder:"|add:"ISBN" as isbn_placeholder %}
+                                {% trans "ISBN" as isbn_placeholder %}
+                                {% with "placeholder:"|add:isbn_placeholder as isbn_placeholder %}
                                     {{ form.wishisbn | add_class:"form-control" | attr:isbn_placeholder }}
                                 {% endwith %}
                             </div>
@@ -61,7 +63,7 @@
                                 {{ form.visible }}
                                 {{ form.visible.label }}</label>
                             </div>
-                            <div><input type="submit" id="send" class="btn btn-primary btn-block" value="Speichern" /></div>
+                            <div><input type="submit" id="send" class="btn btn-primary btn-block" value="{% trans "Save" %}" /></div>
                         </form>
                     </div>
                 </div>

@@ -58,6 +58,13 @@ $(function () {
           $('.overlay').click(function() {
             $(this).remove();
             $('#popup_content').css({'display':'none'});
+            // He cancelled. So let us reset the form.
+            var resetUrl = $('#wishorderform').data('reset');
+            // Obtain the CSRF token
+            var token = $('#wishorderform input[name="csrfmiddlewaretoken"]').val();
+            $.post(resetUrl, { 'csrfmiddlewaretoken': token, }, function (returnVal) {
+              $('#wishorderform').html($(returnVal).html());
+            });
           });
           // Now show the form!
           $('#wishorderform input[name="wishid"]').val($(this).data('wishid'));

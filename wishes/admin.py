@@ -30,7 +30,7 @@ class WishAdmin(admin.ModelAdmin):
             messages.add_message(
                 request,
                 messages.SUCCESS,
-                'Wunsch hinzugefügt.'
+                _('Wish added.')
             )
             return redirect('admin:wishes_wish_changelist')
         return render_to_response('wishes/wish_backend.html', {'form' : form, 'form_url': form_url}, context)
@@ -45,7 +45,7 @@ class WishAdmin(admin.ModelAdmin):
 
         if obj is None:
             raise Http404(_('%(name)s object with primary key %(key)r does not exist.') % {
-                'name': 'Wishs', 'key': escape(object_id)})
+                'name': _('Wish'), 'key': escape(object_id)})
 
         if request.method == 'POST':
             print(request)
@@ -56,7 +56,7 @@ class WishAdmin(admin.ModelAdmin):
                 messages.add_message(
                     request,
                     messages.SUCCESS,
-                    'Wunsch gespeichert.'
+                    _('Wish saved.')
                 )
                 return redirect('admin:wishes_wish_changelist')
             else:

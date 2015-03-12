@@ -17,3 +17,6 @@ Multilingual support is not implemented.
 - Execute `python manage.py collectstatic` 
 - Configure the webserver to deliver all files from the url `/static/*` from the `/static` folder
 - Configure a hook that executes `python manage.py cleandb` periodically _(optional)_
+
+## Dependency
+For the library "django-simple-math-captcha" i fixed the and extended the correct LOCALE part. For this obtain the data from monofox/django-simple-math-captcha repo.

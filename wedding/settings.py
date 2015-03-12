@@ -9,7 +9,8 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 """
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-import os
+import os, sys, simplemathcaptcha
+from django.utils._os import upath
 from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
@@ -61,6 +62,7 @@ USE_TZ = True
 
 LOCALE_PATHS = (
   os.path.join(PROJECT_PATH, 'locale'),
+  os.path.join(os.path.dirname(upath(sys.modules[simplemathcaptcha.__name__].__file__)), 'locale'),
 )
 
 # Static files (CSS, JavaScript, Images)

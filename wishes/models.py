@@ -13,7 +13,7 @@ class WishPriority(models.Model):
 		verbose_name_plural = _('Wish Priorities')
 		ordering = ['weight']
 
-	weight = models.PositiveSmallIntegerField()
+	weight = models.PositiveSmallIntegerField(verbose_name=_('Weight'))
 	priotxt = models.CharField(max_length=125, verbose_name=_('Priority'))
 	
 	def __str__(self):
@@ -21,14 +21,14 @@ class WishPriority(models.Model):
 
 class Wish(models.Model):
 	class Meta:
-		verbose_name = 'Wish'
-		verbose_name_plural = 'Wishes'
+		verbose_name = _('Wish')
+		verbose_name_plural = _('Wishes')
 		ordering = ['priority']
 
-	_subject = _("Anja+David Wunsch wird erfuellt: ")
-	_text_pattern = _("Sender: %(sender)s\nDate: %(date)s\n\nWunsch: \n%(wish)s")
+	_subject = _('%(couple)s wish will be fullfilled: %(wish)s')
+	_text_pattern = _('Sender: %(sender)s\nDate: %(date)s\n\nWish: \n%(wish)s')
 
-	priority = models.ForeignKey(WishPriority)
+	priority = models.ForeignKey(WishPriority, verbose_name=_('Priority'))
 	wishcover = models.ImageField(upload_to='upload/wishes')
 	wishtxt = models.TextField(verbose_name=_('The wish'))
 	wishisbn = models.CharField(max_length=120)
@@ -44,8 +44,12 @@ class Wish(models.Model):
 		# Send mail with detailed information
 		if settings.WISH_ORDER_MAIL is not None:
 			text = self._text_pattern % {
-				'sender' : name,
+				'sender': name,
 				'date' 	: str(self.contact_date),
-				'wish' : self.wishtxt
+				'wish'  : self.wishtxt
 			}
-			send_mail(self._subject + self.wishtxt[:20], text, email, [settings.WISH_ORDER_MAIL])
+			subjectText = self._subject % {
+				'couple': '+'.join(setting.COUPLE_NAMES),
+				'wish': self.wishtxt[:20]
+			}
+			send_mail(subjectText, text, email, [settings.WISH_ORDER_MAIL])

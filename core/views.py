@@ -54,6 +54,18 @@ def send_contactmail(request):
 			'success': status
 		}, context)
 
+def reset_ordered_form(request):
+	'''
+	Called via ajax.
+	'''
+	context = RequestContext(request)
+	form = OrderForm()
+
+	return render_to_response('wishes/order_form.html', {
+			'wishOrderForm': form,
+			'wofsuc': '0'
+		}, context)
+
 def set_wish_ordered(request):
 	'''
 	Called via ajax.
