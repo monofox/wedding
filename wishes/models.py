@@ -45,7 +45,7 @@ class Wish(models.Model):
 		if settings.WISH_ORDER_MAIL is not None:
 			text = self._text_pattern % {
 				'sender': name,
-				'date' 	: str(self.contact_date),
+				'date' 	: str(self.dttiord),
 				'wish'  : self.wishtxt
 			}
 			subjectText = self._subject % {
