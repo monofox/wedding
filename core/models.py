@@ -14,9 +14,9 @@ class ContactMail(models.Model):
 		verbose_name = _("Contact Mail")
 		verbose_name_plural = _("Contact Mails")
 
-	recipient = settings.CONTACT_MAIL
-	subject = _('%(couple)s request: %(subject)s')
-	text_pattern = _('Sender: %(sender)s\nDate: %(date)s\nSubject: %(subject)s\n\n%(content)s')
+	_recipient = settings.CONTACT_MAIL
+	_subject = _('%(couple)s request: %(subject)s')
+	_text_pattern = _('Sender: %(sender)s\nDate: %(date)s\nSubject: %(subject)s\n\n%(content)s')
 
 	name = models.CharField(max_length=100, verbose_name=_("Name"))
 	sender = models.EmailField(max_length=128, verbose_name=_("Email address"))
@@ -31,15 +31,15 @@ class ContactMail(models.Model):
 		super(ContactMail, self).save(*args, **kwargs)
 
 		# Send mail
-		if recipient is not None:
-			text = self.text_pattern % {
+		if self._recipient is not None:
+			text = self._text_pattern % {
 				'sender' : self.sender,
 				'date' 	: str(self.contact_date),
 				'subject' : self.sendersubject,
 				'content' : self.content
 			}
 			subjectText = self._subject % {
-				'couple': '+'.join(setting.COUPLE_NAMES),
+				'couple': '+'.join(settings.COUPLE_NAMES),
 				'subject': self.sendersubject
 			}
-			send_mail(subjectText, text, self.sender, [self.recipient])
+			send_mail(subjectText, text, self.sender, [self._recipient])

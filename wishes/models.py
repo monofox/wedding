@@ -3,6 +3,7 @@
 
 from django.db import models
 from datetime import datetime
+from django.core.mail import send_mail
 from django.conf import settings
 from django.utils.translation import ugettext_lazy as _
 import pytz
@@ -49,7 +50,7 @@ class Wish(models.Model):
 				'wish'  : self.wishtxt
 			}
 			subjectText = self._subject % {
-				'couple': '+'.join(setting.COUPLE_NAMES),
+				'couple': '+'.join(settings.COUPLE_NAMES),
 				'wish': self.wishtxt[:20]
 			}
 			send_mail(subjectText, text, email, [settings.WISH_ORDER_MAIL])

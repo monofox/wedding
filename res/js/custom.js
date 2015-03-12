@@ -72,6 +72,10 @@ $(function () {
           $('#popup_content').css({'display':'block'});
         }
     });
+
+    $('#contactform').ajaxForm(function(returnVal) {
+      $('#contactform').html($(returnVal).html());
+    });
 });
 
 function scrollTo(elem) {

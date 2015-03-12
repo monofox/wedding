@@ -50,7 +50,7 @@ def send_contactmail(request):
 		form = ContactForm()
 
 	return render_to_response('core/contact_form.html', {
-			'form': form,
+			'cform': form,
 			'success': status
 		}, context)
 
