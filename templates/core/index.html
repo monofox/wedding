@@ -70,7 +70,7 @@
 		<article data-wishid="{{ wish.id }}">
 			<div class="wish-img">
 				{% if wish.wishcover %}
-				<img alt="Wunsch" src="{{ wish.wishcover }}" width="90" />
+				<img alt="Wunsch" src="{{ MEDIA_URL }}{{ wish.wishcover }}" width="90" />
 				{% else %}
 				<img alt="Nicht bestimmt" src="{%static "img/item-placeholder.jpg" %}" width="90" />
 				{% endif %}
