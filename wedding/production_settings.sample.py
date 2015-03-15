@@ -109,7 +109,7 @@ LOGGING = {
 
 # The path, where static files should be copied by collectstatic
 STATIC_ROOT = os.path.join(PROJECT_PATH, 'static')
-WISH_UPLOAD_DIR = None
+MEDIA_ROOT = os.path.join(PROJECT_PATH, 'upload')
 
 # Security
 

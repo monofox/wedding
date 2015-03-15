@@ -40,7 +40,8 @@ MIDDLEWARE_CLASSES = (
 )
 
 TEMPLATE_CONTEXT_PROCESSORS += (
-    "core.context_processors.base_settings",
+    'core.context_processors.base_settings',
+    'django.core.context_processors.media',
 )
 
 ROOT_URLCONF = 'wedding.urls'
@@ -69,6 +70,7 @@ LOCALE_PATHS = (
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_URL = '/upload/'
 
 STATICFILES_DIRS = (
     os.path.join(PROJECT_PATH, 'res'),

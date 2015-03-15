@@ -30,7 +30,7 @@ class Wish(models.Model):
 	_text_pattern = _('Sender: %(sender)s\nDate: %(date)s\n\nWish: \n%(wish)s')
 
 	priority = models.ForeignKey(WishPriority, verbose_name=_('Priority'))
-	wishcover = models.ImageField(upload_to=settings.WISH_UPLOAD_DIR)
+	wishcover = models.ImageField(upload_to='wishes')
 	wishtxt = models.TextField(verbose_name=_('The wish'))
 	wishisbn = models.CharField(max_length=120)
 	visible = models.BooleanField(default=False, verbose_name=_('Visible'))
